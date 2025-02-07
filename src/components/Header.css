@@ -1,0 +1,66 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5F6FFF;
+    width: 100%;
+    height: 698px;
+    border-radius: 12px 0px 0px 0px;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+
+.h-left {
+    max-width: 50%;
+}
+
+.h-left .p1 {
+    font-size: 63px;
+    font-weight: 600;
+    line-height: 80px;
+    text-align: left;
+    color: white;
+    margin: 0 0 20px 0;
+}
+
+.h-left .p2 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.h-left button {
+    width: 240px;
+    height: 63px;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #5F6FFF;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.h-left button a {
+    text-decoration: none;
+    color: #5F6FFF;
+    display: flex;
+    align-items: center;
+}
+
+.h-right {
+    max-width: 50%;
+    text-align: right;
+}
+
+.h-right img {
+    width: 100%;
+    height: auto;
+}
