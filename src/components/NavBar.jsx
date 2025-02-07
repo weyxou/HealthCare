@@ -20,7 +20,7 @@ export const NavBar = () => {
 
   return (
     <div className="navbar">
-      <img src={assets.logo} alt="Logo" />
+      <img onClick={()=>navigate('/')} src={assets.logo} alt="Logo" />
       <ul className="navbar-links">
         <NavLink to="/" onClick={() => handleSetActive('home')}>
           <li className={`nav-item ${activeLink === 'home' ? 'active' : ''}`}>Home</li>
