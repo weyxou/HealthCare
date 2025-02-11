@@ -26,8 +26,8 @@ export const NavBar = () => {
           <li className={`nav-item ${activeLink === 'home' ? 'active' : ''}`}>Home</li>
           {activeLink === 'home' && <hr />}
         </NavLink>
-        <NavLink to="/all-doctors" onClick={() => handleSetActive('all-doctors')}>
-          <li className={`nav-item ${activeLink === 'all-doctors' ? 'active' : ''}`}>All Doctors</li>
+        <NavLink to="/doctors" onClick={() => handleSetActive('all-doctors')}>
+          <li className={`nav-item ${activeLink === 'doctors' ? 'active' : ''}`}>Doctors</li>
           {activeLink === 'all-doctors' && <hr />}
         </NavLink>
         <NavLink to="/about" onClick={() => handleSetActive('about')}>
